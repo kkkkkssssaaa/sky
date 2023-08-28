@@ -1,0 +1,275 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+list-style:none;
+text-decoration: none;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+margin: 0.75rem 0;
+}
+
+/*    utlity classes */
+
+
+.text-center{
+text-align: center;
+
+}
+
+.content{
+padding: 0 2rem;
+
+}
+
+.bg-light{
+background: #f4f4f4;
+color: #333;
+}
+
+.bg-dark{
+background: #333;
+color: #f4f4f4;
+}
+
+.bg-primary{
+background: #93cb52;
+color: #fff;
+}
+
+
+.head-1{
+font-size: 4rem;
+margin: 0.75rem;
+line-height: 1.1;
+}
+
+.lead{
+font-size: 1.3rem;
+margin-bottom: 2rem;
+}
+
+.btn{
+display: inline-block;
+color: #fff;
+background: #93cb52;
+padding: 0.5rem 2rem;
+border: none;
+border-radius: 5px;
+}
+
+.btn:hover{
+background: #7ab436;
+}
+
+.btn-dark{
+background-color: #333;
+}
+
+.list{
+margin: 0.5rem 0;
+list-style: none;
+}
+
+.list li{
+padding: 0.5rem 0;
+border-bottom: 1px dotted #444;
+}
+
+
+#navbar{
+display: flex;
+position: sticky;
+top: 0;
+color: #fff;
+background-color: #333;
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+}
+
+#navbar h1 a{
+color: white;
+
+}
+
+
+#navbar ul{
+display: flex;
+align-items: center;
+}
+
+#navbar ul li a{
+color: #fff;
+padding: 0.75rem;
+margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover{
+background: #7ab436;
+border-radius: 5px;
+}
+
+
+
+/*header*/
+
+#header{
+background-image: url(showcase.jpg);
+background-color: rgba(0 0 0 /30%);
+opacity: 1.5;
+background-size: cover;
+height: 100vh;
+width: 100%;
+color: #fff;
+}
+
+
+#header .showcase{
+align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+height: 100%;
+}
+
+
+#what{
+padding: 1.5rem 0;
+}
+
+
+#what h2{
+text-align: center;
+}
+
+#what .items{
+display: flex;
+padding: 1rem;
+}
+
+
+#what .items .item{
+text-align: center;
+padding: 1rem;
+flex: 1;
+}
+ 
+
+#what .items .item i{
+background-color: #7ab436;
+padding: 1rem;
+border-radius: 50%;
+
+}
+
+
+
+/*who section*/
+
+
+#who{
+display: flex;
+}
+
+
+#who div{
+flex: 1;
+}
+
+
+#who .who-img{
+background-image: url(people.jpg);
+background-position: center;
+}
+
+.who-text{
+padding: 2rem;
+}
+
+
+
+#clients{
+padding: 1.5rem 0;
+}
+
+
+#clients h2{
+text-align: center;
+
+}
+
+
+#clients .items{
+display: flex;
+padding: 1.5rem 0;
+}
+
+
+#clients .items img{
+width: 60%;
+display: block;
+margin: auto;
+}
+
+
+#contact{
+display: flex;
+}
+
+#contact h2 , p{
+text-align: center;
+}
+
+#contact .form {
+flex: 1;
+padding: 2rem;
+}
+
+
+#contact .map{
+flex: 1;
+
+}
+
+#contact .form .group-form{
+margin: 0.75rem;
+}
+
+#contact .form .group-form label{
+display: block;
+}
+
+#contact .form .group-form input ,#contact .form .group-form textarea {
+width: 100%;
+padding: 0.5rem;
+background-color: #7ab436;
+color: #333;
+border: none;
+transition: 0.5s;
+border-radius: 5px;
+outline: none;
+}
+#contact .form .group-form input:hover{
+transform: translateY(5px);
+
+
+}
+
+
+
+
+#footer{
+padding: 1.5rem 0;
+text-align: center;
+}
+
+#footer .content p{
+    font-size: 20px;
+}
+
